@@ -21,7 +21,7 @@ const http = require('http');
 
 const PORT = 3000;
 // request
-/*const server = http.createServer((req, res) => {
+const server = http.createServer((req, res) => {
   if (req.method === 'GET') {
     const nombre = req.url.split('?')[1];
     const edad = req.url.split('?')[2];
@@ -53,4 +53,4 @@ server.listen(PORT, (err) => {
 });
 
 
-//cambio*/
+//cambio
